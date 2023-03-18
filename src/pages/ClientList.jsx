@@ -4,7 +4,6 @@ import ClientItem from './ClientItem';
 
 const ClientList = () => {
   const { clients, setOpenForm } = useContext(ClientContext);
-  console.log(clients.length);
   return (
     <div className="table__container">
       <div className="add__client__button__container">
